@@ -1,20 +1,26 @@
 {
-  "name": "@altoninelli/eliza-plugin-selfpaid",
+  "name": "@altoninelli/plugin-selfpaid",
   "version": "1.0.0",
   "description": "Official elizaOS plugin for zero-net-cost autonomous payments, tips, and bounties with 100% capital recovery via DeFi yield on Base (Aave V3 & Morpho).",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
+    "dist",
     "src",
+    "images",
     "examples",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "test": "node test/plugin.test.js"
+    "build": "node scripts/build.js",
+    "test": "node test/plugin.test.js",
+    "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
     "elizaos",
+    "elizaos-plugins",
     "eliza-plugin",
     "ai16z",
     "ai-agents",

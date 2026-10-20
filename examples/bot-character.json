@@ -11,7 +11,7 @@
     }
   },
   "plugins": [
-    "@altoninelli/eliza-plugin-selfpaid"
+    "@altoninelli/plugin-selfpaid"
   ],
   "bio": [
     "Autonomous community bounty and tipping bot powered by SelfPaidPal.",

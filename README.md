@@ -1,6 +1,8 @@
-# @altoninelli/eliza-plugin-selfpaid
+# @altoninelli/plugin-selfpaid
 
-[![npm version](https://img.shields.io/npm/v/@altoninelli/eliza-plugin-selfpaid.svg)](https://www.npmjs.com/package/@altoninelli/eliza-plugin-selfpaid)
+![SelfPaidPal Banner](images/banner.jpg)
+
+[![npm version](https://img.shields.io/npm/v/@altoninelli/plugin-selfpaid.svg)](https://www.npmjs.com/package/@altoninelli/plugin-selfpaid)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
 [![Base Mainnet](https://img.shields.io/badge/Network-Base%20Mainnet%20(8453)-blue.svg)](https://basescan.org)
 [![elizaOS Plugin](https://img.shields.io/badge/elizaOS-Compatible%20Plugin-purple.svg)](https://github.com/elizaos/eliza)
@@ -28,11 +30,13 @@ Install into your elizaOS agent workspace via Bun or npm:
 
 ```bash
 # Using bun (recommended for elizaOS)
-bun add @altoninelli/eliza-plugin-selfpaid
+bun add @altoninelli/plugin-selfpaid
 
 # Or using npm
-npm install @altoninelli/eliza-plugin-selfpaid
+npm install @altoninelli/plugin-selfpaid
 ```
+
+*(Also installable via legacy alias `@altoninelli/eliza-plugin-selfpaid`)*
 
 ---
 
@@ -44,7 +48,7 @@ Register the plugin in your elizaOS character configuration (e.g. `characters/bo
 {
   "name": "BountyBot",
   "plugins": [
-    "@altoninelli/eliza-plugin-selfpaid"
+    "@altoninelli/plugin-selfpaid"
   ],
   "settings": {
     "secrets": {

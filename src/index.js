@@ -1,5 +1,5 @@
 /**
- * @altoninelli/eliza-plugin-selfpaid
+ * @altoninelli/plugin-selfpaid
  * Official elizaOS plugin for SelfPaidPal — Zero-Net-Cost Payments on Base Mainnet.
  */
 
