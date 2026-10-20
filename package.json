@@ -1,0 +1,35 @@
+{
+  "name": "@altoninelli/eliza-plugin-selfpaid",
+  "version": "1.0.0",
+  "description": "Official elizaOS plugin for zero-net-cost autonomous payments, tips, and bounties with 100% capital recovery via DeFi yield on Base (Aave V3 & Morpho).",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node test/plugin.test.js"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza-plugin",
+    "ai16z",
+    "ai-agents",
+    "base",
+    "defi",
+    "zero-cost",
+    "yield-farming",
+    "aave",
+    "morpho",
+    "payments",
+    "tipping"
+  ],
+  "author": "Alessandro Toninelli",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altoninelli/eliza-plugin-selfpaid.git"
+  },
+  "homepage": "https://selfpaid.cryptofolio.it",
+  "publishConfig": {
+    "access": "public"
+  }
+}
